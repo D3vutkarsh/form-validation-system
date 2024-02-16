@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Fill The form To Proceed</h1>
+        <div class="rows">
+
+            <label for="name">Full name :</label>
+            <input class="name item" id="name" type="text" placeholder="Name">
+        </div>
+        <p class="error_name"></p>
+        <div class="rows">
+
+            <label for="email">Email-id :</label>
+            <input class="email item" id="email" type="text" placeholder="Email">
+        </div>
+        <p class="error_email"></p>
+        <div class="rows">
+
+            <label for="number">Phone Number :</label>
+            <input class="number item" id="number" type="number" placeholder="Phone Number">
+        </div>
+        <p class="error_no"></p>
+        <div class="rows">
+
+            <label for="pass">Password :</label>
+            <input class="pass item" id="pass" type="password" placeholder="password">
+        </div>
+        <p class="error_pass"></p>
+        <div class="rows">
+
+            <label for="ConfirmPass">Confirm Password :</label>
+            <input class="ConfirmPass item" id="ConfirmPass" type="password" placeholder="Confirm password">
+        </div>
+        <p class="error_confirmpass"></p>
+        <div class="submit">
+            <button>Submit</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
